@@ -29,7 +29,7 @@ body
 {
     width: 342px;
     hight: 1918px;
-    flex: 0 0 120px;
+    padding-left: 150px;
 }
 .box .imgBx img
 {
@@ -37,7 +37,7 @@ body
 }
 .box .content 
 {
-    padding-left: 150px;
+    flex: 0 0 120px;
 }
 .box .content h1
 {
