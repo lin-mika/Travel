@@ -26,8 +26,8 @@ body
 }
 .box .imgBx
 {
-    width: 171px;
-    hight: 959px;
+    width: 342px;
+    hight: 1618px;
     flex: 0 0 120px;
 }
 .box .imgBx img
@@ -44,4 +44,12 @@ body
     padding: 5% 10%;
     color: #545454;
     ffont-size:x-large;
+}
+.box .content p
+{
+    font-family: "Lucida Console", Courier, monospace;
+    margin: 0;
+    padding: 10px 35px 3px;
+    text-align: justify;
+    font-size:large;
 }
