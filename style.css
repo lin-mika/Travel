@@ -12,6 +12,7 @@ body
     left: 50%;
     transform: translate(-50%,-50%);
     width: 800px;
+    hight: 2000px
     padding: 20px;
     bos-sizing: border-box;
     background: #fff;
