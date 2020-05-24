@@ -1,0 +1,55 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #545454;
+}
+.box
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 800px;
+    padding: 20px;
+    bos-sizing: border-box;
+    background: #fff;
+    border-radius: 6px;
+    box-shadow:0 5px 15px rgba(0,0,0,.5);
+    display: flex;
+    transition: 0.5s;
+}
+.box:hover
+{
+    box-shadow: 0 15px 30px rgba(0,0,0,0.5);
+}
+.box .imgBx
+{
+    width: 342px;
+    hight: 1918px;
+    flex: 0 0 120px;
+}
+.box .imgBx img
+{
+    max-width: 200%;
+}
+.box .content 
+{
+    padding-left: 150px;
+}
+.box .content h1
+{
+    margin: 0;
+    padding: 5% 10%;
+    color: #545454;
+    ffont-size:x-large;
+}
+.box .content p
+{
+    font-family: "Lucida Console", Courier, monospace;
+    margin: 0;
+    padding: 10px 35px 3px;
+    text-align: justify;
+    font-size:large;
+}
